@@ -108,18 +108,8 @@ const Header = () => {
                                 <CustomNavMenuDropdown text={'Blog'}/>
                                 <CustomNavMenuDropdown text={'Pages'}/>
                                 <CustomMenuNavLink text='Contract' href='#Contract'/>
-                                <div style={{display:'flex', alignItems:'center', justifyContent: 'flex-end'}}>
-                                        <div style={{display:'flex', alignItems:'center'}}>
-                                            <FaPhoneAlt />
-                                        </div>
-                                        <div style={{display:'flex', alignItems:'center'}}>
-                                            <div>
-                                                <p><span>985678344</span></p>
-                                                <p><span>Customer Support</span> </p>
-                                                
-                                            </div>
-                                        </div>
-                                </div>
+                               
+                                
                             </Nav>
                             </Container>
                         </Navbar>

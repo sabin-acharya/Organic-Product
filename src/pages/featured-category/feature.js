@@ -17,18 +17,18 @@ const CategoryList = ({img,text}) => {
 
 const Feature = () => {
     return (
-        <>
-        <div style={{Margin: '20px'}}>
-            <h3>Featured Category</h3>
-        </div>
-        <div className='category-list'>
+        <div className='container-fluid'>
+            <div style={{Margin: '20px'}}>
+                <h3>Featured Category</h3>
+            </div>
+            <div className='category-list'>
 
-            <CategoryList img={categoryImage1} text={'Nature'} /> 
-            <CategoryList img={categoryImage2} text={'Electronic'} />
-            <CategoryList img={categoryImage3} text={'Toys'} />
-            <CategoryList img={categoryImage4} text={'Fruits'} />
+                <CategoryList img={categoryImage1} text={'Nature'} /> 
+                <CategoryList img={categoryImage2} text={'Electronic'} />
+                <CategoryList img={categoryImage3} text={'Toys'} />
+                <CategoryList img={categoryImage4} text={'Fruits'} />
+            </div>
         </div>
-        </>
     );
 };
 

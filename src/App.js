@@ -5,6 +5,7 @@ import Slider from './Home/slider/slider'
 import Feature from './pages/featured-category/feature.js';
 
 import Product from './pages/Product/product.js';
+import PopularProduct from './pages/popular-product-menu/popularProduct.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Slider/>
       <Feature/>
+      <PopularProduct/>
       <Product/>
         
     </>
