@@ -10,8 +10,11 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .container-fluid{
-  padding: 0px 45px;
+  padding: 24px 48px;
 }
 .cursor{
 cursor: pointer;
+}
+.second-nav{
+  margin-top: 10px;
 }
