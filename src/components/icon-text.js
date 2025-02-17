@@ -1,7 +1,8 @@
-const IconText = ({ icon, text }) => {
+const IconText = ({ icon:IconComponent, text }) => {
     return (
         <div className='d-flex align-items-center'>
-            <img src={icon} style={{ width: '36px', height: '36px' }} />
+              {IconComponent && <IconComponent style={{ width: '36px', height: '36px' }}/>} 
+            
             <div>
                 {text??''}
             </div>

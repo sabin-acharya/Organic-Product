@@ -1,6 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './slider.css';
+import image1 from '../../assets/images/slide1.jpeg';
+import Account from '../../assets/images/account.png';
+import image2 from '../../assets/images/slide2.jpeg';
 
 
 
@@ -18,25 +21,23 @@ const Homeslider =() => {
     <div>
       <section className='homeSlider'>
         <div className='container-fluid'>
-                <Slider {...settings}>
+                <Slider style={{height:'484px'}} {...settings}>
                     <div>
-                        <h3>1</h3>
+                            <img src={image1}></img>
                     </div>
                     <div>
-                        <h3>2</h3>
+                    <img src={Account}></img>
                     </div>
                     <div>
-                        <h3>3</h3>
+                    <h4>3</h4>
                     </div>
                     <div>
-                        <h3>4</h3>
+                    <h4>4</h4>
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <h4>5</h4>
                     </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
+                   
                 </Slider>
         </div>
       </section>

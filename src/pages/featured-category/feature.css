@@ -1,0 +1,30 @@
+.category-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 08px 24px 48px 24px;
+  padding: 0;
+  list-style: none;
+}
+.category-list-img{
+    width: 100%; /* Make the image fill the container */
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-self: center;
+}
+.category-list-item {
+    display: grid;
+    place-items: center; /* Center horizontally and vertically */
+    width: 200px; /* Make width and height equal */
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-self: center;
+  }
