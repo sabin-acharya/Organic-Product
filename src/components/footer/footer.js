@@ -1,11 +1,13 @@
+import { Icon } from '@mui/material';
 import React from 'react';
+import IconText from '../icon-text';
 
-const footer = () => {
+const Footer = () => {
     return (
         <div>
-            
+            <IconText icon='Wishlist' text='Wishlist' />
         </div>
     );
 };
 
-export default footer;
+export default Footer;
